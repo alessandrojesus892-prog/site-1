@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0b1d39;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1518770660439-4636190af475') center/cover;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.hero button {
+    padding: 12px 25px;
+    margin-top: 15px;
+    border: none;
+    background: #ffb400;
+    color: #000;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.planos {
+    padding: 40px;
+    text-align: center;
+}
+
+.container-planos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plano {
+    background: #fff;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.plano .preco {
+    font-size: 24px;
+    color: #ffb400;
+}
+
+.plano.destaque {
+    border: 3px solid #ffb400;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.btn-assinar {
+    margin-top: 10px;
+    background: #0b1d39;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background: #0b1d39;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
